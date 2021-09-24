@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    scroll-behavior:smooth ;
+    user-select: none;
+    font-family:'Rubik';
+    text-decoration: none;  
+} 
+ 
+header {
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #131722;
+    border-top: #fd0276 solid 20px;
+    flex-direction: column;
+    background: url(images/bg-smartfit.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    justify-content: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.botones button {
+    max-width: 35%;
+    margin-bottom: 0.3rem;
+}
+
+
+.contenedor img {
+    max-width: 80%;
+}
+
+.contenedor h2 {
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
